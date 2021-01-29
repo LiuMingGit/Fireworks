@@ -94,7 +94,6 @@
         // fade out
         this.alpha -= this.fade;
     };
-    焰火
     Particle.prototype.render = function(c) {
         if (!this.exists()) {
             return;
